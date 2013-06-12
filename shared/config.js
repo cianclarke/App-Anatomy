@@ -1,7 +1,7 @@
 var config = {
   tabData: {
     tab1: [
-      '<ul><li>Item one</li><li>Item Two</li></ul>',
+      '<ul><li>Item one</li><li>Item Two</li><li>Tab three</li></ul>',
       'Check out <a href="http://docs.feedhenry.com/wiki/App_Anatomy" target="_blank">this link</a> for full documentation on using packages.'
     ],
     tab2: [

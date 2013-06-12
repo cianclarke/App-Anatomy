@@ -10,6 +10,7 @@ var util = require('util');
  */
 exports.getConfig = function(params, callback) {
   console.log('in getConfig with ts:' + Date.now());
+  console.log(params.__fh);
   var cfg = require("config.js");
   return callback(null, {data: cfg.config});
 };
